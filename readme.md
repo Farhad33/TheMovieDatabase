@@ -1,8 +1,8 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *Flicks*
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flicks* is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **17** hours spent in total
 
 ## User Stories
 
@@ -17,13 +17,13 @@ The following **optional** features are implemented:
 
 - [ ] User sees an error message when there's a networking error.
 - [ ] Movies are displayed using a CollectionView instead of a TableView.
-- [ ] User can search for a movie.
+- [x] User can search for a movie.
 - [ ] All images fade in as they are loading.
 - [ ] Customize the UI.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] User can also view Top Rated Movies using the TabBarController.
 
 ## Video Walkthrough
 

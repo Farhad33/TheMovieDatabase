@@ -14,11 +14,17 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
+  - BALoadingView (0.1.1)
+  - MBProgressHUD (0.9.2)
 
 DEPENDENCIES:
   - AFNetworking
+  - BALoadingView
+  - MBProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  BALoadingView: 181325648e67358b06dcedbc1cedfaeee35f8398
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
 
 COCOAPODS: 0.39.0
