@@ -124,21 +124,25 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
   
     
- //Table View Segue
+// Table View Segue
     
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if let cell = sender as? MovieCell {
-//        let indexPath = self.tableview.indexPathForCell(cell)!.row
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let cell = sender as! UITableViewCell
+        let indexPath = tableview.indexPathForCell(cell)
+        let movie = movies![indexPath!.row]
+        
+        let detailViewController = segue.destinationViewController as! DetaiViewController
+        detailViewController.movie = movie
 //            if segue.identifier == "movieSegue" {
 //                let vc = segue.destinationViewController as! SecondViewController
 //                vc.filteredDict = self.filteredData[indexPath]
 //   
 //            }
-//        }
-//        
+        }
+        
     
     
-//
+
     
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         movieSearch.showsCancelButton = true
